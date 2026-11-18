@@ -4,6 +4,8 @@ GreenPanther is a cloud computing team project for monitoring plant health and e
 
 [Open the final submission in Google Colab](https://colab.research.google.com/drive/1wjukk2Py3b2KFLnIryZpTV46mEOyRA3v?usp=sharing) · [View the notebook on GitHub](GreenPanther.ipynb)
 
+[Read the final project report (PDF)](docs/FinalProjectPanthers.pdf)
+
 ## How it works
 
 - **Research search.** The notebook extracts text from articles and PDFs. An inverted index supports keyword lookup, while embeddings support semantic retrieval. Gemini uses retrieved passages to generate answers.
@@ -18,7 +20,7 @@ GreenPanther is a cloud computing team project for monitoring plant health and e
 
 ## Screenshots
 
-The screenshots come from the final project report. The interface shown in the report is labeled **OrangePanther**.
+The screenshots are taken from the project’s recorded demo. The interface is labeled **OrangePanther**.
 
 ### Image Upload
 

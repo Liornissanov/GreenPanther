@@ -6,6 +6,17 @@ GreenPanther is a cloud computing team project for monitoring plant health and e
 
 [Read the final project report (PDF)](docs/FinalProjectPanthers.pdf)
 
+## Tech Stack
+
+| Area | Technology and role |
+| --- | --- |
+| Frontend | Gradio web interface for dashboards, image uploads, and chat |
+| Backend | Python notebook in Google Colab for data processing, research retrieval, and plant analysis |
+| Database | Firebase Cloud Firestore, with a local-storage fallback |
+| Communication | The notebook fetches external data over HTTP and uses SDKs to communicate with Gemini and Firestore. |
+| AI and data tools | Gemini, Sentence Transformers (`all-MiniLM-L6-v2`), pypdf, pandas, and Plotly |
+| Runtime | Google Colab runs the notebook and launches the Gradio interface. |
+
 ## How it works
 
 - **Research search.** The notebook extracts text from articles and PDFs. An inverted index supports keyword lookup, while embeddings support semantic retrieval. Gemini uses retrieved passages to generate answers.

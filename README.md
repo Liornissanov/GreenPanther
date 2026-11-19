@@ -23,6 +23,10 @@ GreenPanther is a cloud computing team project for monitoring plant health and e
 - **Plant monitoring.** The dashboard displays temperature, humidity, soil moisture, and light readings from an external IoT feed. The app also supports image analysis, health check-ins, and watering reminders.
 - **Cloud storage.** Firebase Firestore stores sensor readings, health history, chat messages, and search data. The notebook uses local storage when Firebase is unavailable.
 
+## My Contributions
+
+- Published the team's [interactive Colab notebook](GreenPanther.ipynb) and organized the public project showcase.
+
 ## Run in Colab
 
 1. Open the notebook in Google Colab.
